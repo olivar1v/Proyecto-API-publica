@@ -10,7 +10,7 @@ app.include_router(tenencia.router)
 
 @app.get("/")
 async def index():
-    return {"message": "MFinanzas"}
+    return {"message": "index"}
 
 
 
